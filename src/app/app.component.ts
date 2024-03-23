@@ -17,9 +17,9 @@ export class AppComponent {
     }, 2000);
     setTimeout(() => {
       this._toastService.show('after sometime this', 'bottomRight');
-    }, 2000);
+    }, 4000);
     setTimeout(() => {
-      this._toastService.show('after sometime this', 'topLeft');
-    }, 2000);
+      this._toastService.show('after sometime this', 'bottomLeft');
+    }, 6000);
   }
 }

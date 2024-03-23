@@ -15,7 +15,6 @@
   border-radius: 5px;
   width: 100%;
   box-sizing: border-box;
-  position: absolute;
 }
 
 /* Positioning for top-left container */
@@ -44,7 +43,7 @@
 
 .topLeft{
   position: absolute;
-  top: 0;
+  top: 30px;
   left: 0;
 }
 
