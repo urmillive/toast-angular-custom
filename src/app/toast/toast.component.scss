@@ -1,0 +1,66 @@
+/* Styling for the toast containers */
+.toast-container {
+  position: relative;
+  z-index: 999;
+  width: 300px;
+  padding: 10px;
+}
+
+/* Styling for the individual toasts */
+.toast {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+/* Positioning for top-left container */
+.toast-container.top-left {
+  top: 40px;
+  left: 20px;
+}
+
+/* Positioning for top-right container */
+.toast-container.top-right {
+  top: 20px;
+  right: 20px;
+}
+
+/* Positioning for bottom-left container */
+.toast-container.bottom-left {
+  bottom: 20px;
+  left: 20px;
+}
+
+/* Positioning for bottom-right container */
+.toast-container.bottom-right {
+  bottom: 20px;
+  right: 20px;
+}
+
+.topLeft{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.topRight{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bottomLeft{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.bottomRight{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
